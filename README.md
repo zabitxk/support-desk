@@ -27,7 +27,7 @@ Install nodemon for Dev mode
 npm i -D nodemon
 ```
 
-Insert new command to package.json
+Insert nodemon command to package.json
 
 ```
  "server": "nodemon backend/server.js"
