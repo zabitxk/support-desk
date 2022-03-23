@@ -7,8 +7,12 @@ const app = express()
 
 app.get("/", (req, res) => {
   res.json({
-      message:"Welcome to API"
+    message: "Welcome to API",
   })
 })
+
+//API Routes
+
+app.use("/api/users", require("./routes/userRoutes"))
 
 app.listen(PORT, () => console.log(`Server start on port ${PORT}`))
