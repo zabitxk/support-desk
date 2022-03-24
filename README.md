@@ -33,4 +33,9 @@ Insert nodemon command to package.json
  "server": "nodemon backend/server.js"
 ```
 
+### Setup Express server
 
+install async handler middleware
+```
+npm install --save express-async-handler
+```
