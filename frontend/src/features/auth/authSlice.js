@@ -1,5 +1,4 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit"
-import { toast } from "react-toastify"
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
 import authService from "./authService"
 
 // Get use from localstorage
